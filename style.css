@@ -2,6 +2,7 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: rgb(35, 35, 143); /* Фон нь ногоон өнгө байна */
+    overflow: auto;
   }
   canvas {
     display: block;
