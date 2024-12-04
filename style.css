@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(35, 35, 143);
+}
+canvas {
+  display: block;
+}
+.header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+.description {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  transform: translateX(-10%);
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+  max-width: 80%;
+  text-align: center;
+}
